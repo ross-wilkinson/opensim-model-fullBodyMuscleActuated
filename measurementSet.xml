@@ -1,0 +1,1353 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<OpenSimDocument Version="40000">
+  <!--Marker pairs used for scaling body dimensions.-->
+  <MeasurementSet name="generic">
+    <objects>
+      <Measurement name="torso_x">
+        <!--Flag to turn on and off scaling for this measurement.-->
+        <apply>true</apply>
+        <!--Set of marker pairs used to determine the scale factors.-->
+        <MarkerPairSet>
+          <objects>
+            <MarkerPair>
+              <!--Names of two markers, the distance between which is used to compute a body scale factor.-->
+              <markers> c7 jug</markers>
+            </MarkerPair>
+            <MarkerPair>
+              <!--Names of two markers, the distance between which is used to compute a body scale factor.-->
+              <markers> rpsi rasi</markers>
+            </MarkerPair>
+            <MarkerPair>
+              <!--Names of two markers, the distance between which is used to compute a body scale factor.-->
+              <markers> lpsi lasi</markers>
+            </MarkerPair>
+          </objects>
+          <groups />
+        </MarkerPairSet>
+        <!--Set of bodies to be scaled by this measurement.-->
+        <BodyScaleSet>
+          <objects>
+            <BodyScale name="head_neck">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> X</axes>
+            </BodyScale>
+            <BodyScale name="sternum">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> X</axes>
+            </BodyScale>	
+            <BodyScale name="Abdomen">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> X</axes>
+            </BodyScale>	
+            <BodyScale name="thoracic1">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> X</axes>
+            </BodyScale>				
+            <BodyScale name="thoracic2">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> X</axes>
+            </BodyScale>
+            <BodyScale name="thoracic3">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> X</axes>
+            </BodyScale>
+            <BodyScale name="thoracic4">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> X</axes>
+            </BodyScale>				
+            <BodyScale name="thoracic5">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> X</axes>
+            </BodyScale>
+            <BodyScale name="thoracic6">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> X</axes>
+            </BodyScale>			
+            <BodyScale name="thoracic7">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> X</axes>
+            </BodyScale>				
+            <BodyScale name="thoracic8">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> X</axes>
+            </BodyScale>
+            <BodyScale name="thoracic9">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> X</axes>
+            </BodyScale>			
+            <BodyScale name="thoracic10">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> X</axes>
+            </BodyScale>				
+            <BodyScale name="thoracic11">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> X</axes>
+            </BodyScale>
+            <BodyScale name="thoracic12">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> X</axes>
+            </BodyScale>				
+            <BodyScale name="lumbar1">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> X</axes>
+            </BodyScale>				
+            <BodyScale name="lumbar2">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> X</axes>
+            </BodyScale>
+            <BodyScale name="lumbar3">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> X</axes>
+            </BodyScale>
+            <BodyScale name="lumbar4">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> X</axes>
+            </BodyScale>
+            <BodyScale name="lumbar5">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> X</axes>
+            </BodyScale>																																																						
+            <BodyScale name="scapula_R">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> X</axes>
+            </BodyScale>
+            <BodyScale name="clavicle_R">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> X</axes>
+            </BodyScale>
+            <BodyScale name="Abd_R_L1">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> X</axes>
+            </BodyScale>
+            <BodyScale name="Abd_R_L2">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> X</axes>
+            </BodyScale>    
+            <BodyScale name="Abd_R_L3">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> X</axes>
+            </BodyScale>
+            <BodyScale name="Abd_R_L4">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> X</axes>
+            </BodyScale>             
+            <BodyScale name="Abd_R_L5">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> X</axes>
+            </BodyScale>
+            <BodyScale name="rib1_R">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> X</axes>
+            </BodyScale>               
+            <BodyScale name="rib2_R">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> X</axes>
+            </BodyScale>
+            <BodyScale name="rib3_R">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> X</axes>
+            </BodyScale> 
+            <BodyScale name="rib4_R">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> X</axes>
+            </BodyScale>               
+            <BodyScale name="rib5_R">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> X</axes>
+            </BodyScale>
+            <BodyScale name="rib6_R">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> X</axes>
+            </BodyScale> 
+            <BodyScale name="rib7_R">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> X</axes>
+            </BodyScale>               
+            <BodyScale name="rib8_R">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> X</axes>
+            </BodyScale>
+            <BodyScale name="rib9_R">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> X</axes>
+            </BodyScale>         
+            <BodyScale name="rib10_R">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> X</axes>
+            </BodyScale>               
+            <BodyScale name="rib11_R">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> X</axes>
+            </BodyScale>
+            <BodyScale name="rib12_R">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> X</axes>
+            </BodyScale>          
+            <BodyScale name="scapula_L">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> X</axes>
+            </BodyScale>
+            <BodyScale name="clavicle_L">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> X</axes>
+            </BodyScale>
+            <BodyScale name="Abd_L_L1">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> X</axes>
+            </BodyScale>
+            <BodyScale name="Abd_L_L2">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> X</axes>
+            </BodyScale>    
+            <BodyScale name="Abd_L_L3">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> X</axes>
+            </BodyScale>
+            <BodyScale name="Abd_L_L4">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> X</axes>
+            </BodyScale>             
+            <BodyScale name="Abd_L_L5">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> X</axes>
+            </BodyScale>
+            <BodyScale name="rib1_L">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> X</axes>
+            </BodyScale>               
+            <BodyScale name="rib2_L">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> X</axes>
+            </BodyScale>
+            <BodyScale name="rib3_L">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> X</axes>
+            </BodyScale> 
+            <BodyScale name="rib4_L">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> X</axes>
+            </BodyScale>               
+            <BodyScale name="rib5_L">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> X</axes>
+            </BodyScale>
+            <BodyScale name="rib6_L">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> X</axes>
+            </BodyScale> 
+            <BodyScale name="rib7_L">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> X</axes>
+            </BodyScale>               
+            <BodyScale name="rib8_L">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> X</axes>
+            </BodyScale>
+            <BodyScale name="rib9_L">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> X</axes>
+            </BodyScale>         
+            <BodyScale name="rib10_L">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> X</axes>
+            </BodyScale>               
+            <BodyScale name="rib11_L">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> X</axes>
+            </BodyScale>
+            <BodyScale name="rib12_L">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> X</axes>
+            </BodyScale>
+          </objects>
+          <groups />
+        </BodyScaleSet>
+      </Measurement>
+      <Measurement name="torso_y">
+        <!--Flag to turn on and off scaling for this measurement.-->
+        <apply>true</apply>
+        <!--Set of marker pairs used to determine the scale factors.-->
+        <MarkerPairSet>
+          <objects>
+            <MarkerPair>
+              <!--Names of two markers, the distance between which is used to compute a body scale factor.-->
+              <markers> racr rasi</markers>
+            </MarkerPair>
+            <MarkerPair>
+              <!--Names of two markers, the distance between which is used to compute a body scale factor.-->
+              <markers> lacr lasi</markers>
+            </MarkerPair>
+            <MarkerPair>
+              <!--Names of two markers, the distance between which is used to compute a body scale factor.-->
+              <markers> c7 s2</markers>
+            </MarkerPair>
+          </objects>
+          <groups />
+        </MarkerPairSet>
+        <!--Set of bodies to be scaled by this measurement.-->
+        <BodyScaleSet>
+          <objects>
+            <BodyScale name="head_neck">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Y</axes>
+            </BodyScale>
+            <BodyScale name="sternum">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Y</axes>
+            </BodyScale>	
+            <BodyScale name="Abdomen">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Y</axes>
+            </BodyScale>	
+            <BodyScale name="thoracic1">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Y</axes>
+            </BodyScale>				
+            <BodyScale name="thoracic2">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Y</axes>
+            </BodyScale>
+            <BodyScale name="thoracic3">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Y</axes>
+            </BodyScale>
+            <BodyScale name="thoracic4">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Y</axes>
+            </BodyScale>				
+            <BodyScale name="thoracic5">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Y</axes>
+            </BodyScale>
+            <BodyScale name="thoracic6">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Y</axes>
+            </BodyScale>			
+            <BodyScale name="thoracic7">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Y</axes>
+            </BodyScale>				
+            <BodyScale name="thoracic8">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Y</axes>
+            </BodyScale>
+            <BodyScale name="thoracic9">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Y</axes>
+            </BodyScale>			
+            <BodyScale name="thoracic10">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Y</axes>
+            </BodyScale>				
+            <BodyScale name="thoracic11">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Y</axes>
+            </BodyScale>
+            <BodyScale name="thoracic12">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Y</axes>
+            </BodyScale>				
+            <BodyScale name="lumbar1">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Y</axes>
+            </BodyScale>				
+            <BodyScale name="lumbar2">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Y</axes>
+            </BodyScale>
+            <BodyScale name="lumbar3">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Y</axes>
+            </BodyScale>
+            <BodyScale name="lumbar4">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Y</axes>
+            </BodyScale>
+            <BodyScale name="lumbar5">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Y</axes>
+            </BodyScale>							
+            <BodyScale name="scapula_R">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Y</axes>
+            </BodyScale>
+            <BodyScale name="clavicle_R">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Y</axes>
+            </BodyScale>
+            <BodyScale name="Abd_R_L1">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Y</axes>
+            </BodyScale>
+            <BodyScale name="Abd_R_L2">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Y</axes>
+            </BodyScale>    
+            <BodyScale name="Abd_R_L3">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Y</axes>
+            </BodyScale>
+            <BodyScale name="Abd_R_L4">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Y</axes>
+            </BodyScale>             
+            <BodyScale name="Abd_R_L5">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Y</axes>
+            </BodyScale>
+            <BodyScale name="rib1_R">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Y</axes>
+            </BodyScale>               
+            <BodyScale name="rib2_R">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Y</axes>
+            </BodyScale>
+            <BodyScale name="rib3_R">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Y</axes>
+            </BodyScale> 
+            <BodyScale name="rib4_R">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Y</axes>
+            </BodyScale>               
+            <BodyScale name="rib5_R">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Y</axes>
+            </BodyScale>
+            <BodyScale name="rib6_R">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Y</axes>
+            </BodyScale> 
+            <BodyScale name="rib7_R">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Y</axes>
+            </BodyScale>               
+            <BodyScale name="rib8_R">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Y</axes>
+            </BodyScale>
+            <BodyScale name="rib9_R">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Y</axes>
+            </BodyScale>         
+            <BodyScale name="rib10_R">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Y</axes>
+            </BodyScale>               
+            <BodyScale name="rib11_R">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Y</axes>
+            </BodyScale>
+            <BodyScale name="rib12_R">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Y</axes>
+            </BodyScale>          
+            <BodyScale name="scapula_L">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Y</axes>
+            </BodyScale>
+            <BodyScale name="clavicle_L">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Y</axes>
+            </BodyScale>
+            <BodyScale name="Abd_L_L1">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Y</axes>
+            </BodyScale>
+            <BodyScale name="Abd_L_L2">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Y</axes>
+            </BodyScale>    
+            <BodyScale name="Abd_L_L3">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Y</axes>
+            </BodyScale>
+            <BodyScale name="Abd_L_L4">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Y</axes>
+            </BodyScale>             
+            <BodyScale name="Abd_L_L5">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Y</axes>
+            </BodyScale>
+            <BodyScale name="rib1_L">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Y</axes>
+            </BodyScale>               
+            <BodyScale name="rib2_L">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Y</axes>
+            </BodyScale>
+            <BodyScale name="rib3_L">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Y</axes>
+            </BodyScale> 
+            <BodyScale name="rib4_L">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Y</axes>
+            </BodyScale>               
+            <BodyScale name="rib5_L">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Y</axes>
+            </BodyScale>
+            <BodyScale name="rib6_L">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Y</axes>
+            </BodyScale> 
+            <BodyScale name="rib7_L">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Y</axes>
+            </BodyScale>               
+            <BodyScale name="rib8_L">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Y</axes>
+            </BodyScale>
+            <BodyScale name="rib9_L">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Y</axes>
+            </BodyScale>         
+            <BodyScale name="rib10_L">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Y</axes>
+            </BodyScale>               
+            <BodyScale name="rib11_L">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Y</axes>
+            </BodyScale>
+            <BodyScale name="rib12_L">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Y</axes>
+            </BodyScale>
+          </objects>
+          <groups />
+        </BodyScaleSet>
+      </Measurement>
+      <Measurement name="torso_z">
+        <!--Flag to turn on and off scaling for this measurement.-->
+        <apply>true</apply>
+        <!--Set of marker pairs used to determine the scale factors.-->
+        <MarkerPairSet>
+          <objects>
+          <MarkerPair>
+            <!--Names of two markers, the distance between which is used to compute a body scale factor.-->
+            <markers> racr lacr</markers>
+          </MarkerPair>
+          <MarkerPair>
+            <!--Names of two markers, the distance between which is used to compute a body scale factor.-->
+            <markers> rasi lasi</markers>
+          </MarkerPair>
+          </objects>
+          <groups />
+        </MarkerPairSet>
+        <!--Set of bodies to be scaled by this measurement.-->
+        <BodyScaleSet>
+          <objects>
+            <BodyScale name="head_neck">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Z</axes>
+            </BodyScale>
+            <BodyScale name="sternum">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Z</axes>
+            </BodyScale>	
+            <BodyScale name="Abdomen">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Z</axes>
+            </BodyScale>	
+            <BodyScale name="thoracic1">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Z</axes>
+            </BodyScale>				
+            <BodyScale name="thoracic2">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Z</axes>
+            </BodyScale>
+            <BodyScale name="thoracic3">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Z</axes>
+            </BodyScale>
+            <BodyScale name="thoracic4">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Z</axes>
+            </BodyScale>				
+            <BodyScale name="thoracic5">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Z</axes>
+            </BodyScale>
+            <BodyScale name="thoracic6">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Z</axes>
+            </BodyScale>			
+            <BodyScale name="thoracic7">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Z</axes>
+            </BodyScale>				
+            <BodyScale name="thoracic8">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Z</axes>
+            </BodyScale>
+            <BodyScale name="thoracic9">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Z</axes>
+            </BodyScale>			
+            <BodyScale name="thoracic10">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Z</axes>
+            </BodyScale>				
+            <BodyScale name="thoracic11">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Z</axes>
+            </BodyScale>
+            <BodyScale name="thoracic12">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Z</axes>
+            </BodyScale>				
+            <BodyScale name="lumbar1">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Z</axes>
+            </BodyScale>				
+            <BodyScale name="lumbar2">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Z</axes>
+            </BodyScale>
+            <BodyScale name="lumbar3">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Z</axes>
+            </BodyScale>
+            <BodyScale name="lumbar4">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Z</axes>
+            </BodyScale>
+            <BodyScale name="lumbar5">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Z</axes>
+            </BodyScale>							
+            <BodyScale name="scapula_R">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Z</axes>
+            </BodyScale>
+            <BodyScale name="clavicle_R">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Z</axes>
+            </BodyScale>
+            <BodyScale name="Abd_R_L1">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Z</axes>
+            </BodyScale>
+            <BodyScale name="Abd_R_L2">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Z</axes>
+            </BodyScale>    
+            <BodyScale name="Abd_R_L3">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Z</axes>
+            </BodyScale>
+            <BodyScale name="Abd_R_L4">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Z</axes>
+            </BodyScale>             
+            <BodyScale name="Abd_R_L5">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Z</axes>
+            </BodyScale>
+            <BodyScale name="rib1_R">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Z</axes>
+            </BodyScale>               
+            <BodyScale name="rib2_R">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Z</axes>
+            </BodyScale>
+            <BodyScale name="rib3_R">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Z</axes>
+            </BodyScale> 
+            <BodyScale name="rib4_R">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Z</axes>
+            </BodyScale>               
+            <BodyScale name="rib5_R">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Z</axes>
+            </BodyScale>
+            <BodyScale name="rib6_R">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Z</axes>
+            </BodyScale> 
+            <BodyScale name="rib7_R">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Z</axes>
+            </BodyScale>               
+            <BodyScale name="rib8_R">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Z</axes>
+            </BodyScale>
+            <BodyScale name="rib9_R">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Z</axes>
+            </BodyScale>         
+            <BodyScale name="rib10_R">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Z</axes>
+            </BodyScale>               
+            <BodyScale name="rib11_R">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Z</axes>
+            </BodyScale>
+            <BodyScale name="rib12_R">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Z</axes>
+            </BodyScale>          
+            <BodyScale name="scapula_L">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Z</axes>
+            </BodyScale>
+            <BodyScale name="clavicle_L">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Z</axes>
+            </BodyScale>
+            <BodyScale name="Abd_L_L1">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Z</axes>
+            </BodyScale>
+            <BodyScale name="Abd_L_L2">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Z</axes>
+            </BodyScale>    
+            <BodyScale name="Abd_L_L3">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Z</axes>
+            </BodyScale>
+            <BodyScale name="Abd_L_L4">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Z</axes>
+            </BodyScale>             
+            <BodyScale name="Abd_L_L5">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Z</axes>
+            </BodyScale>
+            <BodyScale name="rib1_L">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Z</axes>
+            </BodyScale>               
+            <BodyScale name="rib2_L">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Z</axes>
+            </BodyScale>
+            <BodyScale name="rib3_L">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Z</axes>
+            </BodyScale> 
+            <BodyScale name="rib4_L">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Z</axes>
+            </BodyScale>               
+            <BodyScale name="rib5_L">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Z</axes>
+            </BodyScale>
+            <BodyScale name="rib6_L">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Z</axes>
+            </BodyScale> 
+            <BodyScale name="rib7_L">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Z</axes>
+            </BodyScale>               
+            <BodyScale name="rib8_L">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Z</axes>
+            </BodyScale>
+            <BodyScale name="rib9_L">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Z</axes>
+            </BodyScale>         
+            <BodyScale name="rib10_L">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Z</axes>
+            </BodyScale>               
+            <BodyScale name="rib11_L">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Z</axes>
+            </BodyScale>
+            <BodyScale name="rib12_L">
+              <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+              <axes> Z</axes>
+            </BodyScale>
+          </objects>
+          <groups />
+        </BodyScaleSet>
+      </Measurement>
+      <Measurement name="pelvis_x">
+        <!--Flag to turn on and off scaling for this measurement.-->
+        <apply>true</apply>
+        <!--Set of marker pairs used to determine the scale factors.-->
+        <MarkerPairSet>
+          <objects>
+          <MarkerPair>
+            <!--Names of two markers, the distance between which is used to compute a body scale factor.-->
+            <markers> rpsi rasi</markers>
+          </MarkerPair>
+          <MarkerPair>
+            <!--Names of two markers, the distance between which is used to compute a body scale factor.-->
+            <markers> lpsi lasi</markers>
+          </MarkerPair>
+          </objects>
+          <groups />
+        </MarkerPairSet>
+        <!--Set of bodies to be scaled by this measurement.-->
+        <BodyScaleSet>
+          <objects>
+          <BodyScale name="pelvis">
+            <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+            <axes> X</axes>
+          </BodyScale>
+          <BodyScale name="sacrum">
+            <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+            <axes> X</axes>
+          </BodyScale>
+          </objects>
+          <groups />
+        </BodyScaleSet>
+      </Measurement>
+      <Measurement name="pelvis_y">
+        <!--Flag to turn on and off scaling for this measurement.-->
+        <apply>true</apply>
+        <!--Set of marker pairs used to determine the scale factors.-->
+        <MarkerPairSet>
+          <objects>
+          <MarkerPair>
+            <!--Names of two markers, the distance between which is used to compute a body scale factor.-->
+            <markers> rasi rgt</markers>
+          </MarkerPair>
+          <MarkerPair>
+            <!--Names of two markers, the distance between which is used to compute a body scale factor.-->
+            <markers> lasi lgt</markers>
+          </MarkerPair>
+          <MarkerPair>
+            <!--Names of two markers, the distance between which is used to compute a body scale factor.-->
+            <markers> ric rgt</markers>
+          </MarkerPair>
+          <MarkerPair>
+            <!--Names of two markers, the distance between which is used to compute a body scale factor.-->
+            <markers> lic lgt</markers>
+          </MarkerPair>
+          <MarkerPair>
+            <!--Names of two markers, the distance between which is used to compute a body scale factor.-->
+            <markers> rpsi rgt</markers>
+          </MarkerPair>		
+          <MarkerPair>
+            <!--Names of two markers, the distance between which is used to compute a body scale factor.-->
+            <markers> lpsi lgt</markers>
+          </MarkerPair>																
+          </objects>
+          <groups />
+        </MarkerPairSet>
+        <!--Set of bodies to be scaled by this measurement.-->
+        <BodyScaleSet>
+          <objects>
+          <BodyScale name="pelvis">
+            <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+            <axes> Y</axes>
+          </BodyScale>
+          <BodyScale name="sacrum">
+            <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+            <axes> Y</axes>
+          </BodyScale>						
+          </objects>
+          <groups />
+        </BodyScaleSet>
+      </Measurement>
+      <Measurement name="pelvis_z">
+        <!--Flag to turn on and off scaling for this measurement.-->
+        <apply>true</apply>
+        <!--Set of marker pairs used to determine the scale factors.-->
+        <MarkerPairSet>
+          <objects>
+          <MarkerPair>
+            <!--Names of two markers, the distance between which is used to compute a body scale factor.-->
+            <markers> rasi lasi</markers>
+          </MarkerPair>
+          <MarkerPair>
+            <!--Names of two markers, the distance between which is used to compute a body scale factor.-->
+            <markers> rpsi lpsi</markers>
+          </MarkerPair>
+          <MarkerPair>
+            <!--Names of two markers, the distance between which is used to compute a body scale factor.-->
+            <markers> ric lic</markers>
+          </MarkerPair>
+          <MarkerPair>
+            <!--Names of two markers, the distance between which is used to compute a body scale factor.-->
+            <markers> rgt lgt</markers>
+          </MarkerPair>
+          </objects>
+          <groups />
+        </MarkerPairSet>
+        <!--Set of bodies to be scaled by this measurement.-->
+        <BodyScaleSet>
+          <objects>
+          <BodyScale name="pelvis">
+            <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+            <axes> Z</axes>
+          </BodyScale>
+          <BodyScale name="sacrum">
+            <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+            <axes> Z</axes>
+          </BodyScale>
+          </objects>
+          <groups />
+        </BodyScaleSet>
+      </Measurement>
+      <Measurement name="thigh_r_y">
+        <!--Flag to turn on and off scaling for this measurement.-->
+        <apply>true</apply>
+        <!--Set of marker pairs used to determine the scale factors.-->
+        <MarkerPairSet>
+          <objects>
+          <MarkerPair>
+            <!--Names of two markers, the distance between which is used to compute a body scale factor.-->
+            <markers> rgt rlfc</markers>
+          </MarkerPair>
+          </objects>
+          <groups />
+        </MarkerPairSet>
+        <!--Set of bodies to be scaled by this measurement.-->
+        <BodyScaleSet>
+          <objects>
+          <BodyScale name="femur_r">
+            <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+            <axes> Y</axes>
+          </BodyScale>
+          <BodyScale name="patella_r">
+            <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+            <axes> Y</axes>
+          </BodyScale>
+          </objects>
+          <groups />
+        </BodyScaleSet>
+      </Measurement>
+      <Measurement name="thigh_r_xz">
+        <!--Flag to turn on and off scaling for this measurement.-->
+        <apply>true</apply>
+        <!--Set of marker pairs used to determine the scale factors.-->
+        <MarkerPairSet>
+          <objects>
+          <MarkerPair>
+            <!--Names of two markers, the distance between which is used to compute a body scale factor.-->
+            <markers> rlfc rmfc</markers>
+          </MarkerPair>
+          </objects>
+          <groups />
+        </MarkerPairSet>
+        <!--Set of bodies to be scaled by this measurement.-->
+        <BodyScaleSet>
+          <objects>
+          <BodyScale name="femur_r">
+            <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+            <axes> X Z</axes>
+          </BodyScale>
+          <BodyScale name="patella_r">
+            <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+            <axes> X Z</axes>
+          </BodyScale>
+          </objects>
+          <groups />
+        </BodyScaleSet>
+      </Measurement>
+      <Measurement name="shank_r_y">
+        <!--Flag to turn on and off scaling for this measurement.-->
+        <apply>true</apply>
+        <!--Set of marker pairs used to determine the scale factors.-->
+        <MarkerPairSet>
+          <objects>
+          <MarkerPair>
+            <!--Names of two markers, the distance between which is used to compute a body scale factor.-->
+            <markers> rlfc rlmal</markers>
+          </MarkerPair>
+          </objects>
+          <groups />
+        </MarkerPairSet>
+        <!--Set of bodies to be scaled by this measurement.-->
+        <BodyScaleSet>
+          <objects>
+          <BodyScale name="tibia_r">
+            <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+            <axes> Y</axes>
+          </BodyScale>
+          <BodyScale name="talus_r">
+            <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+            <axes> Y</axes>
+          </BodyScale>
+          </objects>
+          <groups />
+        </BodyScaleSet>
+      </Measurement>
+      <Measurement name="shank_r_xz">
+        <!--Flag to turn on and off scaling for this measurement.-->
+        <apply>true</apply>
+        <!--Set of marker pairs used to determine the scale factors.-->
+        <MarkerPairSet>
+          <objects>
+          <MarkerPair>
+            <!--Names of two markers, the distance between which is used to compute a body scale factor.-->
+            <markers> rlmal rmmal</markers>
+          </MarkerPair>
+          </objects>
+          <groups />
+        </MarkerPairSet>
+        <!--Set of bodies to be scaled by this measurement.-->
+        <BodyScaleSet>
+          <objects>
+          <BodyScale name="tibia_r">
+            <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+            <axes> X Z</axes>
+          </BodyScale>
+          <BodyScale name="talus_r">
+            <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+            <axes> X Z</axes>
+          </BodyScale>
+          </objects>
+          <groups />
+        </BodyScaleSet>
+      </Measurement>
+      <Measurement name="foot_r_xy">
+        <!--Flag to turn on and off scaling for this measurement.-->
+        <apply>true</apply>
+        <!--Set of marker pairs used to determine the scale factors.-->
+        <MarkerPairSet>
+          <objects>
+          <MarkerPair>
+            <!--Names of two markers, the distance between which is used to compute a body scale factor.-->
+            <markers> rcal rtoe</markers>
+          </MarkerPair>
+          </objects>
+          <groups />
+        </MarkerPairSet>
+        <!--Set of bodies to be scaled by this measurement.-->
+        <BodyScaleSet>
+          <objects>
+          <BodyScale name="calcn_r">
+            <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+            <axes> X Y</axes>
+          </BodyScale>
+          <BodyScale name="toes_r">
+            <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+            <axes> X Y</axes>
+          </BodyScale>
+          </objects>
+          <groups />
+        </BodyScaleSet>
+      </Measurement>
+      <Measurement name="foot_r_z">
+        <!--Flag to turn on and off scaling for this measurement.-->
+        <apply>true</apply>
+        <!--Set of marker pairs used to determine the scale factors.-->
+        <MarkerPairSet>
+          <objects>
+          <MarkerPair>
+            <!--Names of two markers, the distance between which is used to compute a body scale factor.-->
+            <markers> rmt1 rmt5</markers>
+          </MarkerPair>
+          </objects>
+          <groups />
+        </MarkerPairSet>
+        <!--Set of bodies to be scaled by this measurement.-->
+        <BodyScaleSet>
+          <objects>
+          <BodyScale name="calcn_r">
+            <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+            <axes> Z</axes>
+          </BodyScale>
+          <BodyScale name="toes_r">
+            <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+            <axes> Z</axes>
+          </BodyScale>
+          </objects>
+          <groups />
+        </BodyScaleSet>
+      </Measurement>
+      <Measurement name="upper arm_r">
+        <!--Flag to turn on and off scaling for this measurement.-->
+        <apply>true</apply>
+        <!--Set of marker pairs used to determine the scale factors.-->
+        <MarkerPairSet>
+          <objects>
+          <MarkerPair>
+            <!--Names of two markers, the distance between which is used to compute a body scale factor.-->
+            <markers> racr rlel</markers>
+          </MarkerPair>
+          </objects>
+          <groups />
+        </MarkerPairSet>
+        <!--Set of bodies to be scaled by this measurement.-->
+        <BodyScaleSet>
+          <objects>
+          <BodyScale name="humerus_r">
+            <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+            <axes> X Y Z</axes>
+          </BodyScale>
+          </objects>
+          <groups />
+        </BodyScaleSet>
+      </Measurement>
+      <Measurement name="forearm_hand_r">
+        <!--Flag to turn on and off scaling for this measurement.-->
+        <apply>true</apply>
+        <!--Set of marker pairs used to determine the scale factors.-->
+        <MarkerPairSet>
+          <objects>
+          <MarkerPair>
+            <!--Names of two markers, the distance between which is used to compute a body scale factor.-->
+            <markers> rlel rdr</markers>
+          </MarkerPair>
+          </objects>
+          <groups />
+        </MarkerPairSet>
+        <!--Set of bodies to be scaled by this measurement.-->
+        <BodyScaleSet>
+          <objects>
+          <BodyScale name="ulna_r">
+            <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+            <axes> X Y Z</axes>
+          </BodyScale>
+          <BodyScale name="radius_r">
+            <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+            <axes> X Y Z</axes>
+          </BodyScale>
+          <BodyScale name="hand_r">
+            <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+            <axes> X Y Z</axes>
+          </BodyScale>
+          </objects>
+          <groups />
+        </BodyScaleSet>
+      </Measurement>
+      <Measurement name="thigh_l_y">
+        <!--Flag to turn on and off scaling for this measurement.-->
+        <apply>true</apply>
+        <!--Set of marker pairs used to determine the scale factors.-->
+        <MarkerPairSet>
+          <objects>
+          <MarkerPair>
+            <!--Names of two markers, the distance between which is used to compute a body scale factor.-->
+            <markers> lasi llfc</markers>
+          </MarkerPair>
+          </objects>
+          <groups />
+        </MarkerPairSet>
+        <!--Set of bodies to be scaled by this measurement.-->
+        <BodyScaleSet>
+          <objects>
+          <BodyScale name="femur_l">
+            <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+            <axes> Y</axes>
+          </BodyScale>
+          <BodyScale name="patella_l">
+            <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+            <axes> Y</axes>
+          </BodyScale>
+          </objects>
+          <groups />
+        </BodyScaleSet>
+      </Measurement>
+      <Measurement name="thigh_l_xz">
+        <!--Flag to turn on and off scaling for this measurement.-->
+        <apply>true</apply>
+        <!--Set of marker pairs used to determine the scale factors.-->
+        <MarkerPairSet>
+          <objects>
+          <MarkerPair>
+            <!--Names of two markers, the distance between which is used to compute a body scale factor.-->
+            <markers> llfc lmfc</markers>
+          </MarkerPair>
+          </objects>
+          <groups />
+        </MarkerPairSet>
+        <!--Set of bodies to be scaled by this measurement.-->
+        <BodyScaleSet>
+          <objects>
+          <BodyScale name="femur_l">
+            <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+            <axes> X Z</axes>
+          </BodyScale>
+          <BodyScale name="patella_l">
+            <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+            <axes> X Z</axes>
+          </BodyScale>
+          </objects>
+          <groups />
+        </BodyScaleSet>
+      </Measurement>
+      <Measurement name="shank_l_y">
+        <!--Flag to turn on and off scaling for this measurement.-->
+        <apply>true</apply>
+        <!--Set of marker pairs used to determine the scale factors.-->
+        <MarkerPairSet>
+          <objects>
+          <MarkerPair>
+            <!--Names of two markers, the distance between which is used to compute a body scale factor.-->
+            <markers> llfc llmal</markers>
+          </MarkerPair>
+          </objects>
+          <groups />
+        </MarkerPairSet>
+        <!--Set of bodies to be scaled by this measurement.-->
+        <BodyScaleSet>
+          <objects>
+          <BodyScale name="tibia_l">
+            <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+            <axes> Y</axes>
+          </BodyScale>
+          <BodyScale name="talus_l">
+            <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+            <axes> Y</axes>
+          </BodyScale>
+          </objects>
+          <groups />
+        </BodyScaleSet>
+      </Measurement>
+      <Measurement name="shank_l_xz">
+        <!--Flag to turn on and off scaling for this measurement.-->
+        <apply>true</apply>
+        <!--Set of marker pairs used to determine the scale factors.-->
+        <MarkerPairSet>
+          <objects>
+          <MarkerPair>
+            <!--Names of two markers, the distance between which is used to compute a body scale factor.-->
+            <markers> llmal lmmal</markers>
+          </MarkerPair>
+          </objects>
+          <groups />
+        </MarkerPairSet>
+        <!--Set of bodies to be scaled by this measurement.-->
+        <BodyScaleSet>
+          <objects>
+          <BodyScale name="tibia_l">
+            <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+            <axes> X Z</axes>
+          </BodyScale>
+          <BodyScale name="talus_l">
+            <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+            <axes> X Z</axes>
+          </BodyScale>
+          </objects>
+          <groups />
+        </BodyScaleSet>
+      </Measurement>
+      <Measurement name="foot_l_xy">
+        <!--Flag to turn on and off scaling for this measurement.-->
+        <apply>true</apply>
+        <!--Set of marker pairs used to determine the scale factors.-->
+        <MarkerPairSet>
+          <objects>
+          <MarkerPair>
+            <!--Names of two markers, the distance between which is used to compute a body scale factor.-->
+            <markers> lcal ltoe</markers>
+          </MarkerPair>
+          </objects>
+          <groups />
+        </MarkerPairSet>
+        <!--Set of bodies to be scaled by this measurement.-->
+        <BodyScaleSet>
+          <objects>
+          <BodyScale name="calcn_l">
+            <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+            <axes> X Y</axes>
+          </BodyScale>
+          <BodyScale name="toes_l">
+            <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+            <axes> X Y</axes>
+          </BodyScale>
+          </objects>
+          <groups />
+        </BodyScaleSet>
+      </Measurement>
+      <Measurement name="foot_l_z">
+        <!--Flag to turn on and off scaling for this measurement.-->
+        <apply>true</apply>
+        <!--Set of marker pairs used to determine the scale factors.-->
+        <MarkerPairSet>
+          <objects>
+          <MarkerPair>
+            <!--Names of two markers, the distance between which is used to compute a body scale factor.-->
+            <markers> lmt1 lmt5</markers>
+          </MarkerPair>
+          </objects>
+          <groups />
+        </MarkerPairSet>
+        <!--Set of bodies to be scaled by this measurement.-->
+        <BodyScaleSet>
+          <objects>
+          <BodyScale name="calcn_l">
+            <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+            <axes> Z</axes>
+          </BodyScale>
+          <BodyScale name="toes_l">
+            <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+            <axes> Z</axes>
+          </BodyScale>
+          </objects>
+          <groups />
+        </BodyScaleSet>
+      </Measurement>
+      <Measurement name="upper arm_l">
+        <!--Flag to turn on and off scaling for this measurement.-->
+        <apply>true</apply>
+        <!--Set of marker pairs used to determine the scale factors.-->
+        <MarkerPairSet>
+          <objects>
+          <MarkerPair>
+            <!--Names of two markers, the distance between which is used to compute a body scale factor.-->
+            <markers> lacr llel</markers>
+          </MarkerPair>
+          </objects>
+          <groups />
+        </MarkerPairSet>
+        <!--Set of bodies to be scaled by this measurement.-->
+        <BodyScaleSet>
+          <objects>
+          <BodyScale name="humerus_l">
+            <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+            <axes> X Y Z</axes>
+          </BodyScale>
+          </objects>
+          <groups />
+        </BodyScaleSet>
+      </Measurement>
+      <Measurement name="forearm_hand_l">
+        <!--Flag to turn on and off scaling for this measurement.-->
+        <apply>true</apply>
+        <!--Set of marker pairs used to determine the scale factors.-->
+        <MarkerPairSet>
+          <objects>
+          <MarkerPair>
+            <!--Names of two markers, the distance between which is used to compute a body scale factor.-->
+            <markers> llel ldr</markers>
+          </MarkerPair>
+          </objects>
+          <groups />
+        </MarkerPairSet>
+        <!--Set of bodies to be scaled by this measurement.-->
+        <BodyScaleSet>
+          <objects>
+          <BodyScale name="ulna_l">
+            <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+            <axes> X Y Z</axes>
+          </BodyScale>
+          <BodyScale name="radius_l">
+            <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+            <axes> X Y Z</axes>
+          </BodyScale>
+          <BodyScale name="hand_l">
+            <!--Axes (X Y Z) along which to scale a body. For example, 'X Y Z' scales along all three axes, and 'Y' scales just along the Y axis.-->
+            <axes> X Y Z</axes>
+          </BodyScale>
+          </objects>
+          <groups />
+        </BodyScaleSet>
+      </Measurement>
+    </objects>
+    <groups />
+  </MeasurementSet>
+</OpenSimDocument>

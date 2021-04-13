@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OpenSimDocument Version="40000">
+   <ScaleTool name="s01">
+      <mass>74</mass>
+      <height>1.75</height>
+      <age>22</age>
+      <GenericModelMaker name="s01">
+         <model_file>./cyclistFullBodyMuscle.osim</model_file>
+         <marker_set_file>./markerSet.xml</marker_set_file>
+      </GenericModelMaker>
+      <ModelScaler name="s01">
+         <scaling_order>measurements</scaling_order>
+         <MeasurementSet file="./measurementSet.xml"/>
+         <marker_file>./s01_static.trc</marker_file>
+         <time_range>[0.005 2]</time_range>
+         <preserve_mass_distribution>true</preserve_mass_distribution>
+      </ModelScaler>
+      <MarkerPlacer name="s01">
+         <IKTaskSet file="./tasksScale.xml"/>
+         <marker_file>./s01_static.trc</marker_file>         
+         <time_range>[0.01 2]</time_range>
+         <output_model_file>./s01modelScaled.osim</output_model_file>
+         <output_motion_file>./s01static.mot</output_motion_file>
+         <output_marker_file>./s01markersScaled.xml</output_marker_file>
+         <max_marker_movement>-1</max_marker_movement>
+      </MarkerPlacer>
+   </ScaleTool>
+</OpenSimDocument>
