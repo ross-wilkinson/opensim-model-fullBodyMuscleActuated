@@ -12,7 +12,11 @@ OpenSim full-body muscle-actuated model and scaling files.
 
 1. Open the model file (cyclistFullBodyMuscle.osim) in OpenSim 4.1 (File>Open Model...).
 2. Open the ScaleTool (Tools>Scale Model...).
-3. Load the 'setupScale_s01.xml' file into the ScaleTool.
+3. Load the 's01_setupScale.xml' file into the ScaleTool.
 4. Run ScaleTool and check outputs.
 
-The user can edit the models marker locations, marker pairs, and scaling tasks to suit their unique experimental marker set and scaling requirements. Please refer to the documentation at <https://simtk-confluence.stanford.edu:8443/display/OpenSim/OpenSim+Documentation> for more information on the scaling process in OpenSim.
+The user can edit the models marker locations, marker pairs, and scaling tasks to suit their unique experimental marker set and scaling requirements.
+
+Additional files are included to show how a generic setup file can be written ('writeSetupScaleXml.m') and then edited ('editSetupScaleXml.m') in MATLAB. These files depend on the XML Toolbox for MATLAB that can be downloaded at <http://www.geodise.org/downloads/index.htm>.
+
+For more information on the scaling process in OpenSim refer to the documentation at <https://simtk-confluence.stanford.edu:8443/display/OpenSim/OpenSim+Documentation>.
