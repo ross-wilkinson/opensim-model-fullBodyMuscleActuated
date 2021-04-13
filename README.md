@@ -15,4 +15,4 @@ OpenSim full-body muscle-actuated model and scaling files.
 3. Load the 'setupScale_s01.xml' file into the ScaleTool.
 4. Run ScaleTool and check outputs.
 
-The user can edit the models marker locations and scaling tasks to suit their unique experimental marker set and scaling requirements. Please refer to the documentation at <https://simtk-confluence.stanford.edu:8443/display/OpenSim/OpenSim+Documentation> for more information on the scaling process in OpenSim.
+The user can edit the models marker locations, marker pairs, and scaling tasks to suit their unique experimental marker set and scaling requirements. Please refer to the documentation at <https://simtk-confluence.stanford.edu:8443/display/OpenSim/OpenSim+Documentation> for more information on the scaling process in OpenSim.
